@@ -1,0 +1,8 @@
+PEŁNY CHANGELOG
+
+0.0.1
+
+Package initialization on modules repository
+
+-----------------------------------
+

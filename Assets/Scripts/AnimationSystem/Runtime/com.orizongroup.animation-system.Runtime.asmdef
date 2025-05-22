@@ -1,0 +1,22 @@
+{
+    "name": "com.orizongroup.animation-system",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:ca937d03ee5dd4d699091438dc0f3ae6",
+        "GUID:a432eb0a70c5c4a37ab50d59671586f8",
+        "GUID:3410044932b210040b50212818be83af",
+        "GUID:3ea6b37c31700c54f8bc86f3ed30da81",
+        "GUID:78c43d34df062d047ac3f9c978211cf2",
+        "GUID:e39d45ff7a845cc479f4227be2a8b061"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

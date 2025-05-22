@@ -1,0 +1,87 @@
+FULL CHANGELOG
+
+1.0.12
+
+- Split move animations to: Position Move, Anchor Move, Offset Move
+
+-----------------------------------
+
+1.0.11
+
+- Adding Parameters Container update with data from different Parameters Container
+- Adding nullcheck to DisableEvaluate
+- Adding graphProcessor set to null when updating Graph
+
+-----------------------------------
+
+1.0.10
+
+- Adding font spacing nodes
+
+-----------------------------------
+
+1.0.9
+
+- Fixing Rewind on evaluate end
+
+-----------------------------------
+
+1.0.8
+
+- Adding Logger as package
+- Adding Type Specific Getters in parameters container
+
+-----------------------------------
+
+1.0.7
+
+- Adding non-odin support
+- Adding GUI logging in inspector
+- Adding Preview module
+- Code cleanup
+- Adding Odin support for logger
+
+-----------------------------------
+
+1.0.6
+
+- Filtering parameter types in specified windows
+- Adding dotween as local package
+
+-----------------------------------
+
+1.0.5
+
+- Refactoring processor methods
+- Adding getting sequence with pause
+- Adding evaluation for animation based on progress 0-1
+
+-----------------------------------
+
+1.0.4
+
+- Added configuration for different styles 
+- Added validation for style type and value - need to write custom drawer to improve
+- Added validation for node configuration on graph validation
+
+-----------------------------------
+
+1.0.3
+
+- Fixing graph configuration.
+- Code cleanup
+
+-----------------------------------
+
+1.0.2
+
+Adding packages from url
+
+-----------------------------------
+
+1.0.1
+
+Package initialization on modules repository
+
+-----------------------------------
+

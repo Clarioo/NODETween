@@ -1,0 +1,19 @@
+{
+    "name": "AnimationSystem.CustomDrawers",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4dc2cf79987766043a4754d67e9f67df",
+        "GUID:e39d45ff7a845cc479f4227be2a8b061"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

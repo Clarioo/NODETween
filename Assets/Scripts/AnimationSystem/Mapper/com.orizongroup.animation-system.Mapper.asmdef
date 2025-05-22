@@ -1,0 +1,17 @@
+{
+    "name": "com.orizongroup.animation-system.Mapper",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4dc2cf79987766043a4754d67e9f67df",
+        "GUID:789d6e108ece40c4082ef16fd3ec207c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

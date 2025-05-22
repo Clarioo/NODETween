@@ -1,0 +1,473 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44306a0b8006d254a8d36c5ac31b1160, type: 3}
+  m_Name: DemoViewHide
+  m_EditorClassIdentifier: 
+  serializedNodes: []
+  nodes:
+  - rid: 2782752296908881920
+  - rid: 2782752296908881921
+  - rid: 2782752296908881930
+  - rid: 2782752296908881931
+  - rid: 2782752296908881932
+  - rid: 2782752296908881942
+  - rid: 2782752296908881943
+  edges:
+  - GUID: e80fed77-36d2-4b38-9082-401c2f057e97
+    owner: {fileID: 11400000}
+    inputNodeGUID: 9951dc49-6101-4f99-8828-052f9e89ea20
+    outputNodeGUID: addf715e-16a8-40e1-bee0-9841b1d9d9eb
+    inputFieldName: animationInput
+    outputFieldName: firstNode
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 9ea290f3-1a07-48e5-97ee-a22417096bb8
+    owner: {fileID: 11400000}
+    inputNodeGUID: 9951dc49-6101-4f99-8828-052f9e89ea20
+    outputNodeGUID: 1fe44c46-cd00-40e4-9fea-6aa2706fe813
+    inputFieldName: animableGo
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: output
+  - GUID: e5888707-1a09-4023-84b9-bc1db6c3da72
+    owner: {fileID: 11400000}
+    inputNodeGUID: c38942c3-c807-42ae-9b96-e4a7aad94034
+    outputNodeGUID: dd7d82da-08cf-49a6-96cb-e1b11f7f7a0e
+    inputFieldName: animableGo
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: output
+  - GUID: e617a21b-60cd-4cdf-977d-7eb8e6af6336
+    owner: {fileID: 11400000}
+    inputNodeGUID: c38942c3-c807-42ae-9b96-e4a7aad94034
+    outputNodeGUID: 9951dc49-6101-4f99-8828-052f9e89ea20
+    inputFieldName: animationInput
+    outputFieldName: outputAppend
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 591f5adc-4390-4957-8565-3d9810009d54
+    owner: {fileID: 11400000}
+    inputNodeGUID: c38942c3-c807-42ae-9b96-e4a7aad94034
+    outputNodeGUID: 22dc5fe4-8552-402b-9ed8-ef3b10592af0
+    inputFieldName: targetPosition
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: output
+  - GUID: a8e07073-7ef7-4cf4-9ff2-548b552a8dbe
+    owner: {fileID: 11400000}
+    inputNodeGUID: 250e0a35-2bcf-46a2-963f-6a0d71d3f8de
+    outputNodeGUID: c38942c3-c807-42ae-9b96-e4a7aad94034
+    inputFieldName: animationInput
+    outputFieldName: outputJoin
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: d71adc10-4de9-4333-9361-ad6bd1f631e0
+    owner: {fileID: 11400000}
+    inputNodeGUID: 250e0a35-2bcf-46a2-963f-6a0d71d3f8de
+    outputNodeGUID: dd7d82da-08cf-49a6-96cb-e1b11f7f7a0e
+    inputFieldName: animableGo
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: output
+  groups: []
+  stackNodes: []
+  pinnedElements:
+  - position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 150
+      height: 200
+    opened: 0
+    editorType:
+      serializedType: AnimationSystem.Editor.Windows.Views.FloatParametersView, com.orizongroup.animation-system.Editor,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - position:
+      serializedVersion: 2
+      x: 0
+      y: 219
+      width: 150
+      height: 200
+    opened: 0
+    editorType:
+      serializedType: AnimationSystem.Editor.Windows.Views.Vector3ParametersView,
+        com.orizongroup.animation-system.Editor, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+  - position:
+      serializedVersion: 2
+      x: 0
+      y: 223
+      width: 150
+      height: 200
+    opened: 0
+    editorType:
+      serializedType: AnimationSystem.Editor.Windows.Views.Vector2ParametersView,
+        com.orizongroup.animation-system.Editor, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+  - position:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 150
+      height: 200
+    opened: 0
+    editorType:
+      serializedType: AnimationSystem.Editor.Windows.Views.GameObjectParametersView,
+        com.orizongroup.animation-system.Editor, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+  - position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 150
+      height: 200
+    opened: 0
+    editorType:
+      serializedType: AnimationSystem.Editor.Windows.Views.StringParametersView,
+        com.orizongroup.animation-system.Editor, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+  exposedParameters:
+  - rid: 2782752296908881922
+  - rid: 2782752296908881926
+  - rid: 2782752296908881938
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: -299, y: -97, z: 0}
+  scale: {x: 1.7490063, y: 1.7490063, z: 1}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 2782752296908881920
+      type: {class: AnimationStartScript, ns: AnimationSystem.Runtime.Graph.Animations, asm: com.orizongroup.animation-system}
+      data:
+        nodeCustomName: 
+        GUID: addf715e-16a8-40e1-bee0-9841b1d9d9eb
+        computeOrder: 0
+        position:
+          serializedVersion: 2
+          x: -200
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        firstNode: 0
+    - rid: 2782752296908881921
+      type: {class: AnchorMoveAnimationNode, ns: AnimationSystem.Runtime.Graph.Animations.AnimationNodes.Transform, asm: com.orizongroup.animation-system}
+      data:
+        nodeCustomName: 
+        GUID: 9951dc49-6101-4f99-8828-052f9e89ea20
+        computeOrder: 2
+        position:
+          serializedVersion: 2
+          x: 166.75002
+          y: -155.25002
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        NodeId: 0
+        animationInput: 0
+        animableGo: {fileID: 0}
+        outputAppend: 0
+        outputJoin: 0
+        AnchorMoveAnimation:
+          objectToMove: {fileID: 0}
+          resetAnchorToInitial: 0
+          initialAnchorMin:
+            ParameterName: 
+            ParameterValue: {x: 0, y: 0}
+            ExposedParameterType:
+              guid: 
+              name: 
+              type: 
+              serializedValue:
+                serializedType: 
+                serializedName: 
+                serializedValue: 
+              input: 1
+              settings:
+                rid: -2
+              val: {x: 0, y: 0}
+          initialAnchorMax:
+            ParameterName: 
+            ParameterValue: {x: 0, y: 0}
+            ExposedParameterType:
+              guid: 
+              name: 
+              type: 
+              serializedValue:
+                serializedType: 
+                serializedName: 
+                serializedValue: 
+              input: 1
+              settings:
+                rid: -2
+              val: {x: 0, y: 0}
+          destinationAnchorMin:
+            ParameterName: 
+            ParameterValue: {x: 0, y: -1}
+            ExposedParameterType:
+              guid: 
+              name: 
+              type: 
+              serializedValue:
+                serializedType: 
+                serializedName: 
+                serializedValue: 
+              input: 1
+              settings:
+                rid: -2
+              val: {x: 0, y: 0}
+          destinationAnchorMax:
+            ParameterName: 
+            ParameterValue: {x: 1, y: 0}
+            ExposedParameterType:
+              guid: 
+              name: 
+              type: 
+              serializedValue:
+                serializedType: 
+                serializedName: 
+                serializedValue: 
+              input: 1
+              settings:
+                rid: -2
+              val: {x: 0, y: 0}
+          <Delay>k__BackingField: 0
+          <Loops>k__BackingField: 0
+          <AnimationTime>k__BackingField: 0.8
+          <Ease>k__BackingField: 8
+          <AssignedNodeGUID>k__BackingField: 9951dc49-6101-4f99-8828-052f9e89ea20
+        initialAnchMin: {x: 0, y: 0}
+        initialAnchMax: {x: 0, y: 0}
+        targetAnchMin: {x: 0, y: 0}
+        targetAnchMax: {x: 0, y: 0}
+    - rid: 2782752296908881922
+      type: {class: GameObjectParameter, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        guid: a33fc5a3-9a9a-40ae-bb0b-acc139dbf8cd
+        name: View
+        type: 
+        serializedValue:
+          serializedType: 
+          serializedName: 
+          serializedValue: 
+        input: 1
+        settings:
+          rid: 2782752296908881923
+        val: {fileID: 0}
+    - rid: 2782752296908881923
+      type: {class: ExposedParameter/Settings, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        isHidden: 0
+        expanded: 0
+        guid: a33fc5a3-9a9a-40ae-bb0b-acc139dbf8cd
+    - rid: 2782752296908881926
+      type: {class: GameObjectParameter, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        guid: c4bf04c8-bd8f-4114-bb46-031330b73199
+        name: Title
+        type: 
+        serializedValue:
+          serializedType: 
+          serializedName: 
+          serializedValue: 
+        input: 1
+        settings:
+          rid: 2782752296908881927
+        val: {fileID: 0}
+    - rid: 2782752296908881927
+      type: {class: ExposedParameter/Settings, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        isHidden: 0
+        expanded: 0
+        guid: c4bf04c8-bd8f-4114-bb46-031330b73199
+    - rid: 2782752296908881930
+      type: {class: ParameterNode, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        nodeCustomName: 
+        GUID: dd7d82da-08cf-49a6-96cb-e1b11f7f7a0e
+        computeOrder: 3
+        position:
+          serializedVersion: 2
+          x: 518.60016
+          y: -58.00003
+          width: 61
+          height: 37
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        parameterGUID: c4bf04c8-bd8f-4114-bb46-031330b73199
+        accessor: 0
+    - rid: 2782752296908881931
+      type: {class: ParameterNode, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        nodeCustomName: 
+        GUID: 1fe44c46-cd00-40e4-9fea-6aa2706fe813
+        computeOrder: 1
+        position:
+          serializedVersion: 2
+          x: 29.900002
+          y: -95.45002
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        parameterGUID: a33fc5a3-9a9a-40ae-bb0b-acc139dbf8cd
+        accessor: 0
+    - rid: 2782752296908881932
+      type: {class: MoveAnimationNode, ns: AnimationSystem.Runtime.Graph.Animations.AnimationNodes.Transform, asm: com.orizongroup.animation-system}
+      data:
+        nodeCustomName: 
+        GUID: c38942c3-c807-42ae-9b96-e4a7aad94034
+        computeOrder: 5
+        position:
+          serializedVersion: 2
+          x: 711.6898
+          y: -177.49997
+          width: 324
+          height: 469
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        NodeId: 0
+        animationInput: 0
+        animableGo: {fileID: 0}
+        outputAppend: 0
+        outputJoin: 0
+        MoveAnimation:
+          objectToMove: {fileID: 0}
+          resetPositionToInitial: 0
+          initialPosition:
+            ParameterName: 
+            ParameterValue: {x: 0, y: 0, z: 0}
+            ExposedParameterType:
+              guid: 
+              name: 
+              type: 
+              serializedValue:
+                serializedType: 
+                serializedName: 
+                serializedValue: 
+              input: 1
+              settings:
+                rid: -2
+              val: {x: 0, y: 0, z: 0}
+          targetPosition:
+            ParameterName: TargetTitlePos
+            ParameterValue: {x: 0, y: -200, z: 0}
+            ExposedParameterType:
+              guid: 
+              name: 
+              type: 
+              serializedValue:
+                serializedType: 
+                serializedName: 
+                serializedValue: 
+              input: 1
+              settings:
+                rid: -2
+              val: {x: 0, y: 0, z: 0}
+          <Delay>k__BackingField: 0
+          <Loops>k__BackingField: 0
+          <AnimationTime>k__BackingField: 0.5
+          <Ease>k__BackingField: 11
+          <AssignedNodeGUID>k__BackingField: c38942c3-c807-42ae-9b96-e4a7aad94034
+        initialPosition: {x: 0, y: 0, z: 0}
+        targetPosition: {x: 0, y: 0, z: 0}
+    - rid: 2782752296908881938
+      type: {class: Vector3Parameter, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        guid: db2a2c0f-6ba7-445b-bde3-0235fe541dde
+        name: TargetTitlePos
+        type: 
+        serializedValue:
+          serializedType: 
+          serializedName: 
+          serializedValue: 
+        input: 1
+        settings:
+          rid: 2782752296908881939
+        val: {x: 0, y: 0, z: 0}
+    - rid: 2782752296908881939
+      type: {class: ExposedParameter/Settings, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        isHidden: 0
+        expanded: 0
+        guid: db2a2c0f-6ba7-445b-bde3-0235fe541dde
+    - rid: 2782752296908881942
+      type: {class: ParameterNode, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        nodeCustomName: 
+        GUID: 22dc5fe4-8552-402b-9ed8-ef3b10592af0
+        computeOrder: 4
+        position:
+          serializedVersion: 2
+          x: 519
+          y: 56.49999
+          width: 115
+          height: 37
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        parameterGUID: db2a2c0f-6ba7-445b-bde3-0235fe541dde
+        accessor: 0
+    - rid: 2782752296908881943
+      type: {class: AlphaAnimationNode, ns: AnimationSystem.Runtime.Graph.Animations.AnimationNodes.Rendering, asm: com.orizongroup.animation-system}
+      data:
+        nodeCustomName: 
+        GUID: 250e0a35-2bcf-46a2-963f-6a0d71d3f8de
+        computeOrder: 6
+        position:
+          serializedVersion: 2
+          x: 719.00006
+          y: -472.99994
+          width: 317
+          height: 296
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        NodeId: 0
+        animationInput: 0
+        animableGo: {fileID: 0}
+        outputAppend: 0
+        outputJoin: 0
+        ChangeAlphaAnimation:
+          canvasToChange: {fileID: 0}
+          targetAlpha:
+            ParameterName: 
+            ParameterValue: 0
+            ExposedParameterType:
+              guid: 
+              name: 
+              type: 
+              serializedValue:
+                serializedType: 
+                serializedName: 
+                serializedValue: 
+              input: 1
+              settings:
+                rid: -2
+              val: 0
+          <Delay>k__BackingField: 0
+          <Loops>k__BackingField: 0
+          <AnimationTime>k__BackingField: 0.5
+          <Ease>k__BackingField: 11
+          <AssignedNodeGUID>k__BackingField: 250e0a35-2bcf-46a2-963f-6a0d71d3f8de
+        targetAlpha: 0

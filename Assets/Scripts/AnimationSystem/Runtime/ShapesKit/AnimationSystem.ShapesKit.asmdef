@@ -1,0 +1,16 @@
+{
+    "name": "AnimationSystem.ShapesKit",
+    "rootNamespace": "",
+    "references": ["GUID:4dc2cf79987766043a4754d67e9f67df","GUID:ca937d03ee5dd4d699091438dc0f3ae6","GUID:49e609f07ec06e34eb50018e0a16e485"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "SHAPES_KIT_ANIMATION_SUPPORT"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

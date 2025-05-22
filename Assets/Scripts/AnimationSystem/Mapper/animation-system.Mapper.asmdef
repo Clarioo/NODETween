@@ -1,13 +1,11 @@
 {
-    "name": "com.orizongroup.animation-system.Editor",
+    "name": "animation-system.Mapper",
     "rootNamespace": "",
     "references": [
-        "GUID:a432eb0a70c5c4a37ab50d59671586f8",
-        "GUID:ca937d03ee5dd4d699091438dc0f3ae6"
+        "GUID:4dc2cf79987766043a4754d67e9f67df",
+        "GUID:789d6e108ece40c4082ef16fd3ec207c"
     ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
